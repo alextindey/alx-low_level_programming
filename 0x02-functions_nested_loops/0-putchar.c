@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+/*
 *main - prints _putchar
 *
 *description: prints _putchar
@@ -15,9 +15,10 @@ int main(void)
 	char text[9] = "_putchar";
 	int i = 0;
 
-	for (i = 0; i < 8; i++)
+	while (i < 9)
 	{
 		_putchar(text[i]);
+		i++
 	}
 	_putchar('\n');
 	
