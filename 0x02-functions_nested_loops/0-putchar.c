@@ -15,10 +15,9 @@ int main(void)
 	char text[9] = "_putchar";
 	int i = 0;
 
-	while (i < 9)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(text[i]);
-		i++
 	}
 	_putchar('\n');
 	
