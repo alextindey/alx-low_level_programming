@@ -1,5 +1,1 @@
-#include "main.h"
-
-_putchar(void);
-
-#endif
+void print_alphabet(void);
