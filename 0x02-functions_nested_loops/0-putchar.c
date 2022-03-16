@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *main - entry point
-*Return: 0 (Success)
+*Return: 0
 */
 
 int main(void)
@@ -15,6 +15,5 @@ int main(void)
 		_putchar(text[i]);
 	}
 	_putchar('\n');
-	
 	return (0);
 }
