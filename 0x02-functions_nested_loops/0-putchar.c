@@ -5,7 +5,7 @@
 *
 *description: prints _putchar
 *
-*Returns: 0 (Success)
+*Return: 0 (Success)
 */
 
 
