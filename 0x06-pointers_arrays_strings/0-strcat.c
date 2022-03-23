@@ -1,19 +1,26 @@
-#include "main.h"
+#include "holberton.h"
 /**
- *_isupper - checks if letters are uppercase.
- *@c: input.
- *
- *Return: 1 if c is uppercase
- *0 otherwise.
+ * _strcat - concatenates two strings,
+ * @dest: destination.
+ * @src: source.
+ * Return: the pointer to dest.
  */
-int _isupper(int c)
+char *_strcat(char *dest, char *src)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	int count = 0, count2 = 0;
+
+	while (*(dest + count) != '\0')
 	{
-		return (1);
+		count++;
 	}
-	else
+
+	while (count2 >= 0)
 	{
-		return (0);
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
+			break;
+		count++;
+		count2++;
 	}
+	return (dest);
 }
